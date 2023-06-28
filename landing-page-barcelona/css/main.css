@@ -1,0 +1,21 @@
+@import'./main.css';
+:root {
+  --color-text: #EF4444;
+  --bg: #DC2626;
+  --font: system-ui;
+  --black: #20202084;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family:var(--font);
+    background-color: var(--bg);
+}
